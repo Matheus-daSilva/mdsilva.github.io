@@ -1,0 +1,42 @@
+@media (max-widht: 615px){
+.barra-superior{
+    position: fixed;
+    top: 0;
+    left:0;
+    right: 0;
+    width: 614px;
+    height: 92px;
+    background-color: #CF2B2B;
+}
+.galeria{
+    background-color:#E5E5E5;
+    width: 614px;
+}
+.footer{
+    background-color: #FFFFFF;
+}
+.barra-superior h1{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 44px;
+    color: #FFFFFF;
+    margin-top: 8px;
+    margin-left: 21px;
+}
+.barra-superior h2{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color:#FFFFFF;
+    margin-top: 5px;
+    margin-left: 21px;
+}
+.galeria h2{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+    margin-left: 19px;
+    margin-top: 121px;
+}
+}
