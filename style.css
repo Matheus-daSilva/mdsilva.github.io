@@ -1,19 +1,17 @@
-@media (max-widht: 615px){
+body{
+    background-color: #E5E5E5;
+}
+
+/*configurações da barra superior*/
+
 .barra-superior{
     position: fixed;
     top: 0;
     left:0;
     right: 0;
-    width: 614px;
+    width: 100%;
     height: 92px;
     background-color: #CF2B2B;
-}
-.galeria{
-    background-color:#E5E5E5;
-    width: 614px;
-}
-.footer{
-    background-color: #FFFFFF;
 }
 .barra-superior h1{
     font-family: 'Righteous', cursive;
@@ -31,12 +29,145 @@
     margin-top: 5px;
     margin-left: 21px;
 }
-.galeria h2{
+
+/*configurações da galeria*/
+
+.galeria{
+    background-color:#E5E5E5;
+    width: 614px;
+}
+.topo{
     font-family: 'Righteous', cursive;
     font-weight: 400;
     font-size: 26px;
     color: #333333;
     margin-left: 19px;
-    margin-top: 121px;
+    margin-top: 123px;
 }
+.central{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+    margin-left: 19px;
+    margin-top: 27px;
+}
+.bebidas h2{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+    margin-left: 19px;
+    margin-top: 0px;
+}
+.sobremesas h2{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    color: #333333;
+    margin-left: 19px;
+    margin-top: 27px;
+}
+.galeria h3{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    color: #333333;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.galeria p{
+    font-family: 'Encode Sans', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color:#A6A6A6;
+    width: 147px;
+    margin-left: 14px;
+    margin-top: 4px;
+}
+.galeria h4{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 16px;
+    color: #000000;
+    margin-left: 14px;
+    margin-top: 5px;
+}
+.galeria img{
+    width: 144px;
+    height: 87px;
+    margin-left: 14px;
+    margin-right: 14px;
+    margin-top: 18px;
+    border-radius: 4px;
+}
+.pratos{
+    display: flex;
+    margin-left: 19px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.prato{
+    width: 172px;
+    height: 216px;
+    margin-right: 16px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px;
+}
+.bebidas{
+    display: flex;
+    margin-left: 19px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.bebida{
+    width: 172px;
+    height: 216px;
+    margin-right: 16px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px;
+}
+.sobremesas{
+    display: flex;
+    margin-left: 19px;
+    margin-bottom: 108px;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.sobremesa{
+    width: 172px;
+    height: 216px;
+    margin-right: 16px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -4px;
+}
+
+/*configurações da barra inferior*/
+
+.barra-Inferior{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right:0;
+    width: 100%;
+    height: 92px;
+    background-color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    width: 364px;
+    height: 61px;
+    border-radius: 50px;
+    border: #CBCBCB;
+}
+button p{
+    font-family: 'Encode Sans', sans-serif;
+    font-size: 20px;
+    width: 364px;
+    height: 53px;
+    color: #FFFFFF;
 }
